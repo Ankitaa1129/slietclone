@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color:#ebecee ;
+}
+#first{
+  background-image: url(upar.jpeg);
+  width: 56%;
+
+}
+
+.topnav {
+    background-color:#58799F;
+    overflow: hidden;
+    vertical-align: baseline;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+  }
+  
+  .btn1{
+    color: white;
+    background-color:#58799F;
+    text-align: center;
+font-size: small;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.btn1:hover {
+    background-color:grey;
+    color: black;
+    cursor: pointer;
+  }
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 0px;
+  margin-bottom: 15px; 
+  }
+  #links  li{
+    list-style: none;
+    display: inline-block;
+    color: black;
+    margin-right: 20px;
+    border-right: 3px solid black;
+}
+  .topnav2{
+    text-align: right;
+    overflow: hidden;
+    font-size: 100%;
+    padding-top: 8px;
+    padding-bottom: 0;
+    outline: 0;
+    border: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+  
+.logo1 {
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 7px;
+  margin-top: 15px;
+  margin-bottom: 15px;    /* if you want it vertically middle of the navbar. */
+}
+#first{
+  background-image: url(WhatsApp\ Image\ 2023-08-03\ at\ 6.49.35\ PM.jpeg);
+
+}
+#second{
+  background-color: white;
+}
+
+.topnav3{
+  width: 1170px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  z-index: 9999;
+  padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+  }
+  
+  
+#header3{
+  background-color: #294a70;
+  border-bottom: 5px solid #f4a024;
+  
+}
+#menu2 ul li{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+  text-align: left;
+  float: left;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 2px;
+    border: none;
+    list-style-type: none;
+    list-style-position: inside;
+    display: inline-block;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    
+}
+#menu2 li{
+  color: white;
+}
+
+#menu2 li a{
+  color:black;
+    outline: 0;
+    padding: 5px 10px 3px 10px;
+    text-decoration: none;
+    display: block;
+    text-shadow: 1px 1px 1px #f60404;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    cursor: pointer;
+}
+.list{
+  list-style: none;
+  
+    margin: 0 auto;
+    height: 35px;
+    padding: 0 20px 0 20px;
+  
+    border-radius: 10px;
+}
+
+.slideshow {
+  width: 100%;
+  position:relative;
+  align-items: center;
+}
+
+
+.slideshow ul {
+  list-style: none;
+  margin-top: 20px ;
+  padding: 0;
+  margin-left: 100px;
+ 
+}
+
+.slideshow li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  margin-left: 80px;
+}
+
+img {
+  height: 350px;
+  width: 930px;
+  align-items: center;
+
+    }
+    
+    .slideshow li.active {
+        opacity: 1;
+    }
+    
+    .slideshow .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .tops{
+      background-color: #294a70;
+      color: white;
+      text-align: center;
+      text-shadow: 1px solid black;
+    }
+   
+    .card2{
+      text-align: center;
+      font-weight: bold;
+      font-size: large;
+     color: white;
+     background-color: #C20;
+   margin-left: 75px;
+     padding-top: 5px;
+     padding-bottom: 0px;
+    }
+    .card3{
+      text-align:left;
+      font-weight: bold;
+      font-size: large;
+     color:#294a70 ;
+     background-color:white;
+     padding-top: 2px;
+     padding-bottom: 0px;
+     padding-left:10px;
+   
+    }
+    .news4{
+      color:#294a70 ;
+      background-color:white;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: bold;
+      text-decoration: underline;
+      padding-bottom:5px;
+    }
+    .news5{
+      color:#294a70 ;
+      background-color:white;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: bold;
+      padding-bottom:5px;
+    }
+    
+    #boxes{
+   align-items: center;
+   justify-content: space-between;
+   
+   margin-left: 117px;
+    }
+    
+    .card{
+      margin-left: 70px;
+    }
+    .cardimg{
+      width: 100%;
+      height: 50%;
+    }
+    .card-title3{
+      text-align: left;
+      font-weight: bold;
+      font-size: large;
+     color: white;
+     background-color:#294a70;
+   width: 100%;
+     padding-top: 3px;
+     padding-bottom: 3px;
+     padding-left: 5px;
+      
+    }
+    .card5{
+      background-color: white;
+      margin-left: 68px;
+      text-align: left;
+    }
+    .column-first{
+      background-color: #0B2B3A;
+      width: 230px;
+    border: 1px solid #0B2B3A;
+    border-radius: 5px;
+    padding: 18px;
+    box-sizing: border-box;
+    }
+    .inner{
+      width: 980px;
+      margin: 0 150px;
+      padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    display: block;
+    }
+
+    #footer{
+      background: #58799F;
+    padding-top: 15px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    }
+    .column{
+      float: left;
+    margin-right: 15px;
+    }
+    
+    .site-name-footer{
+      margin-top: 20px;
+    font-size: 13px;
+    }
+    .contact{
+      font-size: 13px;
+    }
+  .column-first h3 span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .column-first h3{
+    color: #fff;
+    text-align: right;
+    text-transform: none;
+    font-weight: bold;
+  }
+  .site-name-footer{
+    margin: 10px 0px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  .column h3{
+    color: #fdfbfb;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0 0 3px 5px;
+    margin-bottom: 5px;
+    border-bottom: 2px groove #333;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .column ul{
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  
+  }
+  #footer ul li{
+    color: #fdfbfb;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 3px 5px 5px 12px;
+    margin-left: 0px;
+  }
+  ul li{
+    list-style-position: inside;
+    border: 0;
+    outline: 0;
+    margin: 0;
+  vertical-align: baseline;
+  }
+  .copyright{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #4764c0;
+    font-size: 15px;
+  }
+  p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .slietfooter{
+    height: 30%;
+  }
+
+
+
+
+
+  
+  
+
